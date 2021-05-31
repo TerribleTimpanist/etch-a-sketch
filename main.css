@@ -1,0 +1,37 @@
+#grid {
+    display:grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    height: 600px;
+    width: 600px;
+    margin: auto;
+    background-color: #DDD;
+    /*gap: 1px;*/
+}
+
+#btnBar {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin: 10px 0;
+}
+
+#resetBtn {
+    margin: 0 20px;
+}
+
+#colorPicker {
+    margin: 0 10px;
+}
+
+.inner {
+    background-color: #BBB;
+}
+
+.highlighted {
+    background-color: #000;
+}
+
+h1 { 
+    text-align: center;
+}
